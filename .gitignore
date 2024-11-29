@@ -1,0 +1,87 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.so
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+/static/
+media/
+*.db
+*.sqlite3
+*.log
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# MySQL
+*.myd
+*.myi
+
+# Visual Studio Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+*.cover
+*.tox
+*.nox
+*.coverage
+*.hypothesis
+
+# PyInstaller
+#  Often used for packaging Python programs into stand-alone executables
+#  https://pyinstaller.readthedocs.io/en/stable/
+*.spec
+
+# Test-related
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# If you're using Docker
+docker-compose.override.yml
+.docker/
+
+# Logs
+*.log
+
+# Caches
+.cache/
+s
